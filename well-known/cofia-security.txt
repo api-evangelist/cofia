@@ -1,0 +1,9 @@
+# Security contact information for Cofia AI, Inc.
+# https://cofia.ai/security
+
+Contact: mailto:security@cofia.ai
+Contact: https://cofia.ai/security
+Expires: 2027-07-17T00:00:00.000Z
+Policy: https://cofia.ai/security
+Preferred-Languages: en
+Canonical: https://cofia.ai/.well-known/security.txt

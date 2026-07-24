@@ -1,7 +1,28 @@
 aid: cofia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cofia.png
 name: Cofia
-description: Cofia is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Cofia is an AI automation platform that learns how a team actually works
+  and automatically builds custom workflow automations without manual setup. By monitoring
+  system events and recognizing repetitive patterns, Cofia proposes and assembles
+  custom agents for tasks like prospect list building, outreach and follow-ups, recruiting
+  pipeline management, and data report creation. The company markets itself as "AI
+  automations that implement themselves." Cofia is a Y Combinator (Winter 2026) company
+  based in New York City, founded by Moses Wayne (formerly Engineering Director at
+  Duolingo) and Paola Martinez (formerly Senior Product Manager at Brilliant.org).
+  It was added to the API Evangelist network as a portfolio-lead stub and enriched
+  with what the company publishes publicly. As of this pass Cofia exposes no public
+  developer API, OpenAPI specification, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/cofia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Automation
+- Workflow Automation
+- Agents
+- Productivity
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: WellKnown
+  url: well-known/cofia-well-known.yml
+- type: SecurityTxt
+  url: well-known/cofia-security.txt
+- type: VulnerabilityDisclosure
+  url: security/cofia-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/cofia-domain-security.yml
+- type: Website
+  url: https://cofia.ai
+- type: Security
+  url: https://cofia.ai/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
