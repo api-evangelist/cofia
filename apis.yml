@@ -48,7 +48,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - Agents
 - Productivity
 - Y Combinator
@@ -60,6 +60,7 @@ tags_raw:
 - Agents
 - Productivity
 - Y Combinator
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
